@@ -1,0 +1,6 @@
+- name: Screenshot Website
+  uses: swinton/screenshot-website@v1.x
+  with:
+    source: https://github.com/for-memory/Websites-Screenshots
+    destination: screenshot001.png
+    full-page: true
