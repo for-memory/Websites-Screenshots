@@ -18,8 +18,8 @@ jobs:
       uses: actions/checkout@v1.0.0
 
     - name: Capture Screenshot
-      id: screenshot
-      uses: ./
+#      id: screenshot
+      uses: swinton/screenshot-website@v1.x
       with:
         source: https://github.com/for-memory/Websites-Screenshots
         destination: Screenshot001.png
